@@ -1,6 +1,6 @@
 import { CATEGORIES, CATEGORIES_KEYS } from "../utils/categories"
 import { useNavigate, useParams } from "react-router"
-import { z, ZodError, ZodObject} from "zod"
+import { z, ZodError } from "zod"
 import { AxiosError } from "axios"
 import { api } from "../services/api"
 
